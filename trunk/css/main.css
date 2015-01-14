@@ -1,0 +1,323 @@
+html, body {
+    height: 100%;
+}
+
+#wpcm-preview-display {
+    width: 200px;
+    position: fixed;
+    top: 200px;
+    right: 50%;
+}
+
+.wpcm-preview-display.wpcm-free-form {
+    position: absolute;
+}
+
+.wpcm-preview-display.wpcm-top-middle {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    width: 50px;
+    float: none;
+    margin: 0 auto;
+    z-index: 999999999999;
+}
+
+.wpcm-preview-display.wpcm-top-left {
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 50px;
+    float: none;
+    z-index: 999999999999;
+}
+
+.wpcm-preview-display.wpcm-top-right {
+    position: fixed;
+    top: 10px;
+    right: 0;
+    width: 50px;
+    float: none;
+    z-index: 999999999999;
+}
+
+#wpcm-properties {
+    width: 400px;
+    border: 1px dashed rgb(194, 194, 194);
+    background-color: rgb(248, 248, 248);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    /*border-top: none;*/
+    padding: 10px;
+    margin: 0 auto;
+    margin-right: -10px;
+}
+
+.wpcm-each-property {
+    margin: 15px 15px 0 15px;
+    min-height: 60px;
+    padding-bottom: 15px;
+}
+
+.wpcm-each-property:not(:last-child) {
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+label.wpcm-prop-label {
+    color: #5E5E5E;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.wpcm-url-inputs {
+    width: 260px;
+}
+
+.wpcm-action-menu {
+    padding-top: 10px;
+}
+
+.wpcm-url-inputs div {
+    width: 100%;
+}
+
+.wpcm_upload_image_button:hover {
+    cursor: pointer;
+}
+
+.wpcm_upload_image_button {
+    float: left;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    line-height: 16px;
+    border-color: #CACACA;
+    color: #777777;
+    font-size: 8px;
+    padding: 0;
+    outline: none
+}
+
+.wpcm-link-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100% !important;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+.wpcm-link-img:hover,.wpcm-link-img-preview:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.wpcm-link-img-preview {
+    float: left;
+    width: 25px !important;
+    height: 25px !important;
+    background-color: #F1F1F1;
+    margin-right: 2px;
+    border: 1px solid #777777;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: transparent;
+    box-shadow: 0px 0px 1px 1px rgba(184, 184, 184, 0.65);
+}
+
+.wpcm-url-inputs input {
+    float: left;
+}
+
+.wpcm-main-container {
+    min-width: 925px;
+}
+
+.wpcm-pull-left {
+    float: left;
+}
+
+.wpcm-pull-right {
+    float: right;
+}
+
+.wpcm-preview-menu.circleMenu-closed li:first-child {
+    background-color: #ffffff;
+    font-weight: bold;
+    font-family: arial black;
+    font-size: 200%;
+    background-image: url(images/trigger_icon.png);
+    border-color: #fff;
+    border-width: 0px;
+    border-style: solid;
+    box-shadow: 0 0 2px 1px #aaa;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-size: 100% 100%;
+    transition:none!Important;
+}
+
+.wpcm-preview-menu.circleMenu-open li:first-child {
+    background-image: url(images/trigger_icon_opened.png);
+    background-color: #ffffff;
+    font-weight: bold;
+    font-family: arial black;
+    font-size: 200%;
+    border-color: #fff;
+    border-width: 0px;
+    border-style: solid;
+    box-shadow: 0 0 2px 1px #aaa;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.wpcm-preview-menu li {
+    background: transparent;
+    color: #fff;
+    font-size: 25px;
+}
+
+.wpcm-preview-menu li a {
+    text-decoration: none;
+    color: #ffffff;
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+}
+
+.wpcm-preview-menu li:first-child a {
+    text-decoration: none;
+    display: none;
+}
+
+.wpcm-each-link-edit {
+}
+
+.wpcm-aggregated-props select {
+    width: 120px;
+}
+
+input.wpcm-css-open, input.wpcm-css-closed {
+    width: 170px;
+    margin-right: 10px;
+}
+
+.wpcm-divider-line {
+    margin-top: 20px;
+    border-top: 1px dashed #C8C8C8;
+    margin-bottom: 25px;
+    margin-left: -10px;
+}
+
+.wpcm-main-plugin-menu {
+    padding: 0 15px 0 15px;
+}
+
+.wpcm-main-plugin-menu input[type=text] {
+    width: 360px;
+}
+
+.wpcm-section-title {
+    height: 35px;
+    padding: 20px 10px 0px 10px;
+    font-size: 17px;
+    color: #797979;
+}
+
+.wpcm-history-list {
+    padding: 10px;
+}
+
+.wpcm-table-action-menu a {
+    margin-right: 10px;
+}
+
+.wpcm-table-action-menu a.wpcm-delete-item {
+    color: #DF5F5F;
+}
+
+#wpcm_promo {
+    padding-right: 10px;
+    margin-top: 15px;
+    width: 390px;
+    margin-bottom: 10px;
+}
+
+#wpcm_promo ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+
+#wpcm_promo ul li {
+    display: inline-block;
+}
+
+#wpcm_promo ul li.wpcm_separator {
+    border-left: 1px solid;
+    height: 10px;
+    margin-bottom: -1px;
+}
+
+.wpcm_c_grey {
+    color: #797979;
+}
+
+.wpcm_promo_upgrade {
+    text-align: left;
+    width: 245px;
+}
+
+.wpcm-each-property a {
+    text-decoration: none;
+}
+
+.wpcm_promo_upgrade a {
+    background-color: #05BB6F;
+    text-decoration: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 3px 5px 3px 5px;
+    color: #ffffff;
+    cursor: pointer;
+    border: 1px solid #05ab61;
+}
+
+.wpcm_promo_upgrade a:hover {
+    background-color: #05af60;
+    border: 1px solid #05a359;
+    box-shadow: 1px 1px 1px 1px rgba(92, 92, 92, 0.21);
+}
+
+.wpcm-trigger_icon > div {
+    margin-right: 10px;
+}
+
+a.wpcm-each-link:focus{
+    color: #124964;
+    -webkit-box-shadow: none!Important;
+    box-shadow: none:!important;
+
+}
+
+.wpcm-trial-links-limit{
+    display: block;
+    margin-bottom: 10px;
+}
